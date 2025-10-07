@@ -119,7 +119,7 @@ Link do repositório: [https://github.com/DanielDeSousaDEV/TaskFlow](https://git
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/daniel-de-sousa-257275314/
-[Typescript.com]: https://img.shields.io/badge/Typesctript-030712?style=for-the-badge&logo=typescript&logoColor=00bcff
+[Typescript.com]: https://img.shields.io/badge/Typescript-030712?style=for-the-badge&logo=typescript&logoColor=00bcff
 [Typescript-url]: https://www.typescriptlang.org/
 [Node.js.com]: https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white
 [Node.js-url]: https://nodejs.org/
