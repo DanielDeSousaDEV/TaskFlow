@@ -14,7 +14,6 @@
 
 
 <!-- PROJECT LOGO -->
-<br />
 <div align="center">
 
   <h3 align="center">TaskFlow</h3>
