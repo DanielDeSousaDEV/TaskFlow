@@ -7,7 +7,7 @@
     "dev": "ts-node-dev --respawn src/server.ts",
     "build": "tsc",
     "start": "node dist/server.js",
-    "migrate": "prisma migrate dev",
+    "prisma:setup": "npx prisma migrate deploy && npx prisma generate",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
