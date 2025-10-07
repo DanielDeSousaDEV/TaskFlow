@@ -15,7 +15,7 @@ app.use(express.json())
 app.use(UserRoutes)
 app.use(TaskRoutes)
 
-// app.use(NotFound)
+app.use(NotFound)
 app.use(ErrorHandler)
 
 app.listen(env.PORT, env.HOST, () => {
