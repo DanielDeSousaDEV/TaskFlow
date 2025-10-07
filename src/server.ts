@@ -13,6 +13,6 @@ app.use(TaskRoutes)
 
 app.use(ErrorHandler)
 
-app.listen(env.PORT, () => {
+app.listen(env.PORT, env.HOST, () => {
     console.log(`Servidor criado com sucesso na porta ${env.PORT}`);
 })

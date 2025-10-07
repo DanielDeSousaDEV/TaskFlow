@@ -3,6 +3,7 @@ import { FormatZodErrors } from "./utils/FormatZodErrors";
 
 const EnvSchema = z.object({
     DATABASE_URL: z.string('Informe a url de conexão com o banco de dados'),
+    HOST: z.coerce.string('Informe o host de conexão').default('0.0.0.0'),
     PORT: z.coerce.number('informe a porta do servidor').positive().default(3000)
 });
 
