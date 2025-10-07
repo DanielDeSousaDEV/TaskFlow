@@ -93,7 +93,11 @@ _Siga o passo a passo abaixo para configurar o projeto em seu ambiente local._
       ```
       DATABASE_URL="mysql://root:root@localhost:3306/taskflow"
       ```
-5.  Execute o projeto
+5. Crie os arquivos do prisma
+      ```
+      npx prisma migrate dev
+      ```
+6.  Execute o projeto
       ```sh
       npm run dev
       ```
