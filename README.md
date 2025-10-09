@@ -80,23 +80,27 @@ _Siga o passo a passo abaixo para configurar o projeto em seu ambiente local._
       ```sh
       git clone https://github.com/DanielDeSousaDEV/TaskFlow.git
       ```
-2. Instale os pacote do NPM
+2. Entre na pasta criada
+      ```sh
+      cd TaskFlow
+      ```
+3. Instale os pacote do NPM
       ```sh
       npm install
       ```
-3. Copie e cole o arquivo o arquivo `.env.example` e renomeie para `.env`
+4. Copie e cole o arquivo o arquivo `.env.example` e renomeie para `.env`
       ```
       cp .env.example .env
       ```
-4. Configure as seguintes variáveis de ambiente
+5. Configure as seguintes variáveis de ambiente
       ```
       DATABASE_URL="mysql://root:root@localhost:3306/taskflow"
       ```
-5. Crie os arquivos do prisma
+6. Crie os arquivos do prisma
       ```
       npx prisma migrate dev
       ```
-6.  Execute o projeto
+7.  Execute o projeto
       ```sh
       npm run dev
       ```
